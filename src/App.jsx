@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 function App() {
 
 const getDataFromApi = async () =>{
-  let myEndpoint = "https://endpoint";
+  let myEndpoint = "PasteYourEndPointHere";
   let myData = await fetch(myEndpoint);
   //console.log("received Data: ", myData);
   let parsedData = await myData.json(); /* Must wait for myData.json */
